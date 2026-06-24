@@ -1,0 +1,51 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables (never commit these)
+.env
+.env.*
+!.env.example
+
+# LangChain / AI
+.langchain.db
+langchain_cache/
+chroma_db/
+vectorstore/
+faiss_index/
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+.venv/
+env/
